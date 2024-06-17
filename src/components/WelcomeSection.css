@@ -1,0 +1,43 @@
+/* WelcomeSection.css */
+.welcome-section {
+    margin-top: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .welcome-section h1 {
+    font-size: 2.5rem;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .welcome-section p {
+    font-size: 1.275rem;
+    line-height: 2.25rem;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+    .p1{
+        width: 78%;
+        margin: 0 auto;
+
+    }
+  .welcome-section .courses-button {
+    background-color: green;
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    font-size: 1rem;
+    cursor: pointer;
+    text-decoration: none;
+    border-radius: 56px;
+    text-align: center;
+  }
+  
+  .welcome-section .courses-button:hover {
+    background-color: darkgreen;
+  }
+  

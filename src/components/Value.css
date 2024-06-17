@@ -1,0 +1,38 @@
+/* Values.css */
+.card-container {
+    text-align: center;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 126px;
+  }
+  
+  .card-container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .three-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap; 
+  }
+  
+  .text-container {
+    border: 1px solid black;
+    width: 400px;
+    padding: 20px;
+    box-sizing: border-box; 
+  }
+  
+  .text-container h3 {
+    text-align: center;
+    margin-bottom: 10px; 
+  }
+  
+  .text-container p {
+    text-align: center;
+    margin: 0; 
+  }
+  

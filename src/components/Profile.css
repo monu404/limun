@@ -1,0 +1,58 @@
+/* Profile.css */
+.profile-card {
+    text-align: center;
+    margin-bottom: 20px; /* Add margin below each profile card */
+  }
+  
+  .profile-card img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%; /* Makes the image circular */
+    margin-bottom: 10px;
+  }
+  
+  .profile-name {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  .profile-role {
+    font-size: 1rem;
+    color: #060505;
+  }
+  
+
+  .picture {
+    
+    flex-wrap: wrap; /* Ensure items wrap to the next line if necessary */
+    justify-content: center;
+    gap: 25px;
+  }
+  
+  .profile-row1 {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    margin-bottom: 20px; /* Add margin between rows */
+  }
+
+  .profile-row2 {
+
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+
+  }
+
+
+
+  
+  .section-title {
+    text-align: center; /* Center align the text */
+    margin-bottom: 30px; /* Optional: Add bottom margin for spacing */
+  }
+
+  .team{
+    margin-top: 200px;
+  }
