@@ -29,18 +29,15 @@ const Section3 = () => {
         <div className="section3">
             <h2>In Our Courses, we will provide</h2>
             <p>We offer exam preparation guide for LLB students of Delhi University</p>
-
-            {/* map function  */}
+          
             <div className='featureContainer'>
             {features.map((feature) => (
                 <div className="feature" key={feature.id}>
                     <h3>{feature.heading}</h3> 
                  <p>{feature.paragraph}</p> 
                  </div>
-              
             ))}
             </div>
-
             <a href="#courses" className="courses-button">Course Offered</a>
         </div>
     );

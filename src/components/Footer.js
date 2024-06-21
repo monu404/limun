@@ -6,7 +6,6 @@ function Footer() {
         <div className="footer-container">
 
             <div className="footer-top">
-
                 <div className="left-container">
                     <p class="logo">Lumin</p>
                 </div>

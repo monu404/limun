@@ -1,66 +1,75 @@
+/* Global reset */
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
-  
-  .navbar {
-    position: fixed;
-    top: 0;
-    width: 100%;
-    z-index: 1000;
-    border-bottom: 1px solid black;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 25px 120px; /* Reduced padding */
-    background-color: white;
-  }
-  
-  .lumin {
-    margin-left: 0; /* Removed negative margin */
-  }
-  
-  .lumin a {
-    font-weight: 500;
-    font-size: 22px; /* Slightly reduced font size */
-    text-decoration: none;
-    color: rgb(47,138,87);
-  }
-  
-  .menuopen {
-    display: flex;
-    gap: 10px; /* Further reduced spacing */
-    margin-right: 50px;
-  }
-  
-  .navbar-item {
-    padding: 10px 10px; /* Further reduced padding */
-    list-style: none;
-  }
-  
-  .navbar-item a {
-    color: green;
-    text-decoration: none;
-    position: relative;
-    font-size: 20px; /* Slightly reduced font size */
-  }
-  
-  
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
-  .login{
-    
-         color: white;
-         background-color: rgb(52, 157, 52);
-       
-        border: none;
-        padding: 10px 25px;
-        font-size: 1rem;
-        cursor: pointer;
-        text-decoration: none;
-        border-radius: 25px;
-        text-align: center;
-         align-content: center;
-      
-  }
-  
+/* Navbar styles */
+.navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+  border-bottom: 1px solid black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 25px 120px;
+  background-color: white;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.lumin {
+  margin-left: 0;
+}
+
+.lumin a {
+  font-weight: 500;
+  font-size: 22px;
+  text-decoration: none;
+  color: rgb(47,138,87);
+}
+
+.menuopen {
+  display: flex;
+  gap: 10px;
+  margin-right: 50px;
+}
+
+.navbar-item {
+  padding: 10px 10px;
+  list-style: none;
+}
+
+.navbar-item a {
+  color: green;
+  text-decoration: none;
+  position: relative;
+  font-size: 20px;
+}
+
+.login {
+  color: white;
+  background-color: rgb(52, 157, 52);
+  border: none;
+  padding: 10px 25px;
+  font-size: 1rem;
+  cursor: pointer;
+  text-decoration: none;
+  border-radius: 25px;
+  text-align: center;
+  align-content: center;
+}
+
+.theme-toggle {
+  background: none;
+  border: none;
+  color: inherit;
+  cursor: pointer;
+  padding: 10px 25px;
+  font-size: 1rem;
+  border-radius: 25px;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
